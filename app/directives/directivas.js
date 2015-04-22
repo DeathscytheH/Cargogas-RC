@@ -16,3 +16,21 @@ app.directive('carrucel', function () {
         templateUrl: 'views/carrucel.html'
     };
 });
+app.directive('contenido', function () {
+    return {
+        restrict: 'E',
+        templateUrl: 'views/contenido.html'
+    };
+});
+app.directive('marketing', function () {
+    return {
+        restrict: 'E',
+        templateUrl: 'views/marketing.html'
+    };
+});
+app.directive('footer', function () {
+    return {
+        restrict: 'E',
+        templateUrl: 'views/footer.html'
+    };
+});

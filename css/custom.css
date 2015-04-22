@@ -56,6 +56,8 @@
 
 #inicio {
     background-color: #c0263d;
+    max-width: 100%;
+    color: floralwhite;
 }
 #marketing {
     background-color: #c0263d;
@@ -101,7 +103,7 @@
 }
 
 #info {
-    background-color: gainsboro;
+    background-color: rgb(244, 244, 242);
     border: #151515;
     border-style: solid;
 }
@@ -119,4 +121,8 @@ body {
 
 #gasolineras {
     background-color: #f4f4f2;
+}
+
+a {
+    color: floralwhite;
 }
