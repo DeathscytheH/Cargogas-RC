@@ -1,0 +1,122 @@
+
+.nav-inicio {
+    background: url(images/BARRA-ROJA-SUPERIOR.png);
+    height: 49px;
+    width: 1425px;
+}
+
+#cuerpo {
+    box-shadow: 0px 0px 35px 0.00px rgba(27, 21, 17, 0.52);
+    background-color: #f4f4f2;
+}
+
+#logo {
+    top: 50px;
+    right: 10px;
+}
+
+#carrucel {
+    top: 10px;
+}
+
+#busqueda {
+    background: url(images/BARRA-AMARILLA-SUPERIOR.jpg);
+    height: 56px;
+    width: 100%;
+    right: 10px;
+    left: 15px;
+
+}
+
+#ligas {
+    background-color: rgb(213,213,213);
+    width: 183px;
+}
+
+#pagina {
+    width: 50.7%;
+    height: 42.2%;
+    background-color: #f4f4f2;
+    border-bottom-width: thin;
+    border-color: black;
+}
+
+#pie {
+    background-color: #dfc810;
+    height: 9.1%;
+}
+
+#mapa {
+
+}
+
+#servicios {
+    top: 7px;
+}
+
+#inicio {
+    background-color: #c0263d;
+}
+#marketing {
+    background-color: #c0263d;
+    height: 50px;
+}
+
+#footer {
+    background-color: rgb(222,200,16);
+}
+
+#buscador {
+    background-color: #dfc810;
+    height: 40px;
+}
+
+#ajuste {
+    top: 200px;
+}
+
+#gasolina {
+    top: 5px;
+}
+
+#menu {
+    right: 15px;
+}
+
+#cr {
+    top: 20px;
+}
+
+#redes {
+    top: 7px;
+}
+
+#myCarousel stilo {
+
+}
+
+#myCarousel {
+    top: 20px;
+    z-index: 1;
+}
+
+#info {
+    background-color: gainsboro;
+    border: #151515;
+    border-style: solid;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+body {
+    background-color: #f4f4f2;
+}
+
+#ciudad {
+}
+
+#gasolineras {
+    background-color: #f4f4f2;
+}

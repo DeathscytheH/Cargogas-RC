@@ -1,0 +1,89 @@
+[
+    {
+        "Coahuila": {
+            "Matamoros": {
+                "E04538": {
+                    "id": "E04538",
+                    "nombre": "San Julian",
+                    "direccion":"Carretera Saltillo-Torreon KM 257, Ejido Santo Tomas."
+                },
+                "E03646": {
+                    "id": "E03646",
+                    "nombre": "San Jose",
+                    "direccion":"Carretera Torreon-Matamoros KM 19.300. Col. Valle Hermoso."
+                },
+                "E01484": {
+                    "id": "E01484",
+                    "nombre": "Servicio Matamoros S.A. de C.V",
+                    "direccion":"Carretera Interoceanica Matamoros-Mazatlan KM 251."
+                },
+                "E06339": {
+                    "id": "E06339",
+                    "nombre": "Matamoros Centro",
+                    "direccion":"Calle Niños Heroes 119 Norte. Col. Centro."
+                },
+                "E01475": {
+                    "id": "E01475",
+                    "nombre": "Servicio Coyote S.A. de C.V.",
+                    "direccion":"Carretera Torreon-San Pedro KM 17. Ejido Hormiguero."
+                }
+            },
+            "Torreon": {
+                "E06877": {
+                    "id": "E06877",
+                    "nombre": "La Amistad",
+                    "direccion":"Blvd. Torreon-Matamoros Manzana 53. Col. La Amistad."
+                },
+                "E010650": {
+                    "id": "E010650",
+                    "nombre": "Santa Fe",
+                    "direccion":"Av. Sierra de Tlahualilo. Esq. Cerro de las Calabazas. Col. Residencial del Nazas."
+                },
+                "E05939": {
+                    "id": "E05939",
+                    "nombre": "Plaza 2",
+                    "direccion":"Calz. Jose Vasconcelos #250. Col. Ex-Hacienda Los Angeles."
+                },
+                "E08666": {
+                    "id": "E08666",
+                    "nombre": "La Joyita",
+                    "direccion":"Av. Juarez y Calle 29 No. 2909 ote."
+                },
+                "E04697": {
+                    "id": "E04697",
+                    "nombre": "La Joya",
+                    "direccion":"Carretera Torreon-Matamoros 9200. Col. Jose de las Fuentes Rodriguez."
+                }
+            },
+            "Viesca": {
+                "E01511": {
+                    "id": "E01511",
+                    "nombre": "Servicio Bilvao S.A. de C.V.",
+                    "direccion":"Carretera Matamoros Viesca KM 30 Emiliano Zapata. Ejido Gabino Vazquez y Ejido Saucillo"
+                }
+            }
+        },
+        "Durango": {
+            "GomezPalacio": {
+                "E06266": {
+                    "id": "E06266",
+                    "nombre": "Combustibles y Lubricantes Frankie S.A de C.V.",
+                    "direccion":"Gladiolas esq. con Roble. Col. Miguel de la Madrid."
+                },
+                "E05609": {
+                    "id": "E05609",
+                    "nombre": "Autoservicio Camionero Tres Estrellas S.A. de C.V.",
+                    "direccion":"Carretera Gomez Palacio. Ejido Competencia KM 15."
+                }
+            },
+            "Ceballos": {
+                "E04158": {
+                    "id": "E04158",
+                    "nombre": "Pompa Boylan Asociados S.A. de C.V.",
+                    "direccion":"Autopista Zona del Silencio KM 129"
+                }
+            }
+        }
+    }
+
+]
