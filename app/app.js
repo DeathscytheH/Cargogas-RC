@@ -1,4 +1,4 @@
-var app = angular.module('CargogasApp', ['ngRoute']);
+var app = angular.module('CargogasApp', ['ngRoute', 'ui.bootstrap', 'ngMap']);
 /**/
 app.config(function ($routeProvider) {
   $routeProvider
@@ -27,6 +27,14 @@ app.config(function ($routeProvider) {
       controller: 'UbicacionesController',
       templateUrl: 'views/ubicaciones.html'
     })
+    .when('/mapas', {
+      templateUrl: 'views/mapas.html'
+    })  
+    .when('/forma', {
+      controller: 'ContactController',
+      templateUrl: 'views/contactform.html'
+    })
+  
     .otherwise({
       redirectTo: '/'
     });

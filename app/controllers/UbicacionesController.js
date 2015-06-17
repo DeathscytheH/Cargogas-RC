@@ -3,6 +3,10 @@ app.controller('UbicacionesController', ['$scope', 'gasolineras', function ($sco
         $scope.gasolineras = data;
     });
     $scope.estados = ["Durango", "Coahuila"];
-    $scope.ciudades = ["Matamoros", "Torreon", "Viesca", "Gomez Palacio"];
-
+    $scope.$watch('myEstado', function(newVal) {
+        if (newVal == 'Durango') $scope.ciudades = ['Gomez Palacio'];
+    });
+    $scope.$watch('myEstado', function(newVal) {
+        if (newVal == 'Coahuila') $scope.ciudades = ["Matamoros", "Torreon", "Viesca"];
+    });
 }]);

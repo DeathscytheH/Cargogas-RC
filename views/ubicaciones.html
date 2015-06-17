@@ -1,17 +1,16 @@
 <div id="gasolineras" class="panel">
     <h1 class="subheader">Gasolineras</h1>
-    <div class="col-md-6">
+    <div class=" col-xs-5">
         <h3>Selecciona el estado:</h3>
         <select id="estado" name="estado" ng-model="myEstado" ng-options="estado for estado in estados" class="form-control"></select>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-xs-5">
         <h3>Selecciona la ciudad:</h3>
         <select id="ciudad" name="ciudad" ng-model="myCiudad" ng-options="ciudad for ciudad in ciudades" class="form-control"></select>
     </div>
-
-   <br>
-    <div class="container-fluid" ng-repeat="gas in gasolineras | filter: { estado: myEstado, ciudad: myCiudad}">
+    <div class="row"><br></div>
+    <div class="container-fluid col-xs-12" id="gas" ng-repeat="gas in gasolineras | filter: { estado: myEstado, ciudad: myCiudad}">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">{{gas.nombre}}</h3>
