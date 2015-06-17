@@ -18,14 +18,16 @@
         "nombre": "Cargogas Servicio Matamoros",
         "direccion": "Carretera Interoceanica Matamoros-Mazatlan KM 251.",
         "estado": "Coahuila",
-        "ciudad": "Matamoros"
+        "ciudad": "Matamoros",
+        "mapa": "https://www.google.com.mx/maps/place/CargoGas+Servicio+Matamoros/@25.5374549,-103.2271966,17z/data=!4m7!1m4!3m3!1s0x868fc12cd1ea187f:0x6f035c6cc6371aea!2sCargoGas+Matamoros+Centro!3b1!3m1!1s0x0000000000000000:0x79268a4e16b89a6e"
                 },
     {
         "id": "E06339",
         "nombre": "Cargogas Matamoros Centro",
         "direccion": "Calle Niños Heroes 119 Norte. Col. Centro.",
         "estado": "Coahuila",
-        "ciudad": "Matamoros"
+        "ciudad": "Matamoros",
+        "mapa": "https://www.google.com.mx/maps/place/CargoGas+Matamoros+Centro/@25.531201,-103.228186,17z/data=!3m1!4b1!4m2!3m1!1s0x868fc12cd1ea187f:0x6f035c6cc6371aea"
                 },
     {
         "id": "E01475",
@@ -46,21 +48,24 @@
         "nombre": "Cargogas Santa Fe",
         "direccion": "Av. Sierra de Tlahualilo. Esq. Cerro de las Calabazas. Col. Residencial del Nazas.",
         "estado": "Coahuila",
-        "ciudad": "Torreon"
+        "ciudad": "Torreon",
+        "mapa":""
                 },
     {
         "id": "E05939",
         "nombre": "Cargogas Coleadero",
         "direccion": "Calz. Jose Vasconcelos #250. Col. Ex-Hacienda Los Angeles.",
         "estado": "Coahuila",
-        "ciudad": "Torreon"
+        "ciudad": "Torreon",
+        "mapa":"https://www.google.com.mx/maps/place/CargoGas+Coleadero/@25.532423,-103.396174,17z/data=!4m5!1m2!2m1!1scargogas!3m1!1s0x868fdb719e411a35:0xbdb08667b6d2e1d5"
                 },
     {
         "id": "E08666",
         "nombre": "Cargogas La Joyita",
         "direccion": "Av. Juarez y Calle 29 No. 2909 ote.",
         "estado": "Coahuila",
-        "ciudad": "Torreon"
+        "ciudad": "Torreon",
+        "mapa":"https://www.google.com.mx/maps/place/CargoGas+La+Joyita/@25.538309,-103.417276,17z/data=!3m1!4b1!4m2!3m1!1s0x868fdbbd456f333d:0x45c53718d1dca8fc"
                 },
     {
         "id": "E04697",

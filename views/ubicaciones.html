@@ -15,9 +15,12 @@
             <div class="panel-heading">
                 <h3 class="panel-title">{{gas.nombre}}</h3>
             </div>
-            <div class="panel-body">
+            <div class="panel-body col-xs-8">
                 {{gas.direccion}}
                 <p>{{gas.ciudad}}, {{gas.estado}}</p>
+            </div>
+            <div id="mapa" ng-show="gas.mapa" class="col-xs-4 ng-hide center">
+                <a href="{{gas.mapa}}"><img class="img-responsive" src="img/gmaps-logo.png" alt=""></a>
             </div>
         </div>
     </div>
