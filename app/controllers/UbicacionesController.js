@@ -4,7 +4,7 @@ app.controller('UbicacionesController', ['$scope', 'gasolineras', function ($sco
     });
     $scope.estados = ["Durango", "Coahuila"];
     $scope.$watch('myEstado', function(newVal) {
-        if (newVal == 'Durango') $scope.ciudades = ['Gomez Palacio'];
+        if (newVal == 'Durango') $scope.ciudades = ['Gomez Palacio', 'Ceballos'];
     });
     $scope.$watch('myEstado', function(newVal) {
         if (newVal == 'Coahuila') $scope.ciudades = ["Matamoros", "Torreon", "Viesca"];

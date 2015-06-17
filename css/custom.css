@@ -11,8 +11,8 @@
 }
 
 #logo {
-    top: 50px;
-    right: 10px;
+    top: 30px;
+    left: 15px;
 }
 
 #carrucel {
@@ -53,14 +53,16 @@
 
 #servicios {
     top: 7px;
-    width: 970px;
-    height: 40px;
+    width: auto;
+    height: auto;
     overflow: hidden;
 }
 
 #servicios img {
     display: inline;
     margin: 0 10px;
+    width: auto;
+    height: 45px;
 }
 
 #inicio {
@@ -73,7 +75,7 @@
 }
 #marketing {
     background-color: #c0263d;
-    height: 50px;
+    height: 60px;
 }
 
 #footer {
@@ -111,6 +113,7 @@
     border-style: solid;
     border-width: thin;
     top: 20px;
+    height: auto;
 }
 
 body {
@@ -129,6 +132,7 @@ body {
     bottom: 20px;
 }
 #contenido {
+    height: auto;
     
 }
 
@@ -184,11 +188,7 @@ body,
 /* Demonstrate the grids */
 .col-xs-4 {
   padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2);
+  padding-bottom: 15px;  
 }
 
 .container .navbar-header,
