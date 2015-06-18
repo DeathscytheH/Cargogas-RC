@@ -1,4 +1,4 @@
-var app = angular.module('CargogasApp', ['ngRoute', 'ui.bootstrap', 'ngMap']);
+var app = angular.module('CargogasApp', ['ngRoute', 'ui.bootstrap']);
 /**/
 app.config(function ($routeProvider) {
   $routeProvider
