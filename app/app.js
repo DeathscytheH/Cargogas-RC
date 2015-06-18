@@ -26,15 +26,11 @@ app.config(function ($routeProvider) {
     .when('/ubicaciones', {
       controller: 'UbicacionesController',
       templateUrl: 'views/ubicaciones.html'
-    })
-    .when('/mapas', {
-      templateUrl: 'views/mapas.html'
-    })  
+    }) 
     .when('/forma', {
       controller: 'ContactController',
       templateUrl: 'views/contactform.html'
     })
-  
     .otherwise({
       redirectTo: '/'
     });
