@@ -57,7 +57,7 @@
 #servicios {
     top: 7px;
     width: auto;
-    height: auto;
+    height: 35px;
     overflow: hidden;
 }
 
@@ -65,7 +65,7 @@
     display: inline;
     margin: 0 10px;
     width: auto;
-    height: 45px;
+    height: 30px;
 }
 
 #inicio {
@@ -78,11 +78,13 @@
 }
 #marketing {
     background-color: #c0263d;
-    height: 60px;
+    height: 50px;
+    width: 98.5%;    
 }
 
 #footer {
     background-color: rgb(222,200,16);
+    width: 98.5%;    
 }
 
 #buscador {
@@ -100,6 +102,8 @@
 
 #menu {
     right: 15px;
+    top: 10px;
+    height: auto;
 }
 
 #cr {
@@ -133,7 +137,6 @@ body {
     bottom: 20px;
 }
 #menu {
-    height: auto;
     
 }
 
@@ -420,4 +423,18 @@ body,
     background-color: rgb(223,200,16);
 }
 #contenido {
+}
+
+#cliente {
+    right: 15px;
+    top: 10px;
+    height: auto;    
+}
+
+#cliente a {
+    background-color: yellow;
+}
+
+#menu2 {
+    padding-top: 5px;
 }
