@@ -64,6 +64,7 @@
 #servicios img {
     display: inline;
     margin: 0 10px;
+    margin-right: -10px;
     width: auto;
     height: 30px;
 }
