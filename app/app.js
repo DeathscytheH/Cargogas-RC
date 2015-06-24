@@ -21,7 +21,7 @@ app.config(function ($routeProvider) {
       templateUrl: 'views/credito.html'
     })
     .when('/prepago', {
-      templateUrl: 'views/prepago.html'
+      templateUrl: 'views/credito.html'
     })
     .when('/ubicaciones', {
       controller: 'UbicacionesController',
