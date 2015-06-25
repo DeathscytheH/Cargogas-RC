@@ -41,7 +41,8 @@
         "nombre": "CargoGas La Amistad",
         "direccion": "Blvd. Torreon-Matamoros Manzana 53. Col. La Amistad.",
         "estado": "Coahuila",
-        "ciudad": "Torreon"
+        "ciudad": "Torreon",
+        "mapa": "https://www.google.com.mx/maps/place/CargoGas+La+Amistad/@25.535163,-103.359933,17z/data=!3m1!4b1!4m2!3m1!1s0x868fdb4cc16244d3:0xcfb0a8a30223978c"
                 },
     {
         "id": "E010650",
@@ -49,7 +50,7 @@
         "direccion": "Av. Sierra de Tlahualilo. Esq. Cerro de las Calabazas. Col. Residencial del Nazas.",
         "estado": "Coahuila",
         "ciudad": "Torreon",
-        "mapa":""
+        "mapa":"https://www.google.com.mx/maps/place/CargoGas+Santa+Fe/@25.557767,-103.354486,17z/data=!3m1!4b1!4m2!3m1!1s0x868fc4d24ab7d6c5:0xa9802800de0d0ae6"
                 },
     {
         "id": "E05939",
@@ -72,7 +73,8 @@
         "nombre": "CargoGas La Joya",
         "direccion": "Carretera Torreon-Matamoros 9200. Col. Jose de las Fuentes Rodriguez.",
         "estado": "Coahuila",
-        "ciudad": "Torreon"
+        "ciudad": "Torreon",
+        "mapa": "https://www.google.com.mx/maps/place/CargoGas+La+Joya/@25.534796,-103.321545,17z/data=!3m1!4b1!4m2!3m1!1s0x868fc48f80ca99ef:0xee542de30aa90ecd"
                 },
     {
         "id": "E01511",

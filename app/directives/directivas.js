@@ -34,3 +34,9 @@ app.directive('footer', function () {
         templateUrl: 'views/footer.html'
     };
 });
+app.directive('aviso', function () {
+    return {
+        restrict: 'E',
+        templateUrl: 'views/aviso.html'
+    };
+});

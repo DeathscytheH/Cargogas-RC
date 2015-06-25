@@ -12,7 +12,7 @@
 
 #logo {
     top: 30px;
-    left: 15px;
+    right: 20px;
 }
 
 #carrucel {
@@ -103,7 +103,6 @@
 
 #menu {
     right: 15px;
-    top: 10px;
     height: auto;
 }
 
@@ -139,9 +138,7 @@ body {
     background-color: #f4f4f2;
     bottom: 20px;
 }
-#menu {
-    
-}
+
 
 #menu a{
     color: black;
@@ -416,6 +413,7 @@ body,
 
 #caru {
     bottom: 10px;
+    margin-bottom: 5px;    
 }
 
 #externo {
@@ -435,10 +433,33 @@ body,
     height: auto;    
 }
 
-#cliente a {
-    background-color: yellow;
+#extra a {
+    background-color: #dfc810;
+    color: black
 }
 
 #menu2 {
     padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#privacidad {
+    text-align: center;
+}
+
+#privacidad a {
+    color: darkgrey
+}
+.promo {
+    box-shadow: 0px 0px 35px 0.00px rgba(27, 21, 17, 0.52);
+    background-color: #f4f4f2;
+}
+
+#aviso {
+}
+
+#extra {
+    right: 15px;
+    height: auto;
+    margin-top: 20px;
 }

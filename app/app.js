@@ -1,4 +1,4 @@
-var app = angular.module('CargogasApp', ['ngRoute', 'ui.bootstrap']);
+var app = angular.module('CargogasApp', ['ngRoute', 'ui.bootstrap', 'reCAPTCHA']);
 /**/
 app.config(function ($routeProvider) {
   $routeProvider
@@ -31,7 +31,19 @@ app.config(function ($routeProvider) {
       controller: 'ContactController',
       templateUrl: 'views/contactform.html'
     })
+    .when('/aviso', {
+      templateUrl: 'views/credito.html'
+    })  
     .otherwise({
       redirectTo: '/'
+    });
+});
+app.config(function (reCAPTCHAProvider) {
+    // required: please use your own key :)
+    reCAPTCHAProvider.setPublicKey('6LcdgQgTAAAAAIQzeHcrRbuT-ebesOerMyhx2tfK');
+
+    // optional: gets passed into the Recaptcha.create call
+    reCAPTCHAProvider.setOptions({
+        theme: 'clean'
     });
 });
