@@ -108,6 +108,8 @@
 
 #cr {
     top: 20px;
+    font-size: 10px;
+    text-align: center;
 }
 
 #redes {
@@ -462,4 +464,8 @@ body,
     right: 15px;
     height: auto;
     margin-top: 20px;
+}
+
+#captcha {
+    padding-left: 100px;
 }
